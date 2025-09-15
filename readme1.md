@@ -17,10 +17,9 @@ This project implements a RAG (Retrieval-Augmented Generation) system specifical
 ##  Architecture
 DiabetesCare ChatBot
 │
-├── 📁 data/ - Contains diabetes-related documents (PDFs, text files)
-├── 📁 vector_db/ - Chroma vector store (created automatically)
-├── 📁 src/ - Source code
-│ ├── data_processing.py - Document loading and chunking
-│ ├── embedding_model.py - Vector embeddings setup
-│ ├── rag_chain.py - Core RAG implementation
-│ └── app.py - Streamlit web application
+1) Diabetes Management Guide.pdf - information abt Diabetes (PDFs, text files)
+2) vector_db/ - FAISS vector store (created automatically)
+3) data_processing.py - Document loading and chunking
+4) mbedding_model.py - Vector embeddings setup
+5) rag_chain.py - Core RAG implementation
+6) Diabetes_care_chatbot.py - Streamlit web application
